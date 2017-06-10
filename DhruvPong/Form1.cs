@@ -23,6 +23,8 @@ namespace DhruvPong
         PaddleClass paddle2;
         BallClass ball;
         Graphics gfx;
+        int player1score = 0;
+        int player2score = 0;
         public Form1()
         {
             InitializeComponent();
@@ -36,9 +38,10 @@ namespace DhruvPong
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            ball = new BallClass(100, 100, 100, 100, 20, 20, Color.FromArgb(255, 2,2,2));
-            paddle = new PaddleClass(0, 150, 40, 280);
-            paddle2 = new PaddleClass(1336, 150, 40, 280);
+            ball = new BallClass(100, 100, 100, 100, 20, 20, Color.FromArgb(255, 1,1,1));
+            paddle = new PaddleClass(0, 150, 40, 280, Color.FromArgb(255, 2, 2, 2));
+            paddle2 = new PaddleClass(1336, 150, 40, 280, Color.FromArgb(255, 2, 2, 2));
+
         }
 
         private void Form1_KeyDown(object sender, KeyEventArgs e)
@@ -69,6 +72,8 @@ namespace DhruvPong
 
         private void timer1_Tick(object sender, EventArgs e)
         {
+            score1.Text = $"{player1score}";
+            score2.Text = $"{player2score}";
 
             ball.x += ball.speedX;
             ball.y += ball.speedY;
@@ -87,11 +92,12 @@ namespace DhruvPong
             {
                 if(ball.x <= 0)
                 {
+                    player1score++;
                     
                 }
                 else
                 {
-
+                    player2score++;
                 }
                 ball.Reset(ClientSize.Width, ClientSize.Height);
             }
