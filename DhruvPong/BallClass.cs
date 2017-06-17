@@ -43,12 +43,12 @@ namespace DhruvPong
         {
             x += speedX;
             y += speedY;
-            if (x >= ClientWidth) // Right Side OK
+            if (x + width >= ClientWidth) // Right Side OK
             {
                 offscreen = true;
             }
 
-            if (x + width <= 0) // Left Side OK
+            if (x <= 0) // Left Side OK
             {
                 offscreen = true;
                 //speedX = Math.Abs(speedX);

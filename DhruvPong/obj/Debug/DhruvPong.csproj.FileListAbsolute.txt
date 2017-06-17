@@ -25,3 +25,11 @@ C:\Users\DhruvMadiraju\Documents\Github\DhruvPong\DhruvPong\obj\Debug\DhruvPong.
 C:\Users\DhruvMadiraju\Documents\Github\DhruvPong\DhruvPong\obj\Debug\DhruvPong.Form1.resources
 C:\Users\DhruvMadiraju\Documents\Github\DhruvPong\DhruvPong\obj\Debug\DhruvPong.Properties.Resources.resources
 C:\Users\DhruvMadiraju\Documents\Github\DhruvPong\DhruvPong\obj\Debug\DhruvPong.csproj.GenerateResource.Cache
+C:\Users\GMRInstructor\Documents\GitHub\DhruvPong\DhruvPong\bin\Debug\DhruvPong.exe.config
+C:\Users\GMRInstructor\Documents\GitHub\DhruvPong\DhruvPong\bin\Debug\DhruvPong.exe
+C:\Users\GMRInstructor\Documents\GitHub\DhruvPong\DhruvPong\bin\Debug\DhruvPong.pdb
+C:\Users\GMRInstructor\Documents\GitHub\DhruvPong\DhruvPong\obj\Debug\DhruvPong.Form1.resources
+C:\Users\GMRInstructor\Documents\GitHub\DhruvPong\DhruvPong\obj\Debug\DhruvPong.Properties.Resources.resources
+C:\Users\GMRInstructor\Documents\GitHub\DhruvPong\DhruvPong\obj\Debug\DhruvPong.csproj.GenerateResource.Cache
+C:\Users\GMRInstructor\Documents\GitHub\DhruvPong\DhruvPong\obj\Debug\DhruvPong.exe
+C:\Users\GMRInstructor\Documents\GitHub\DhruvPong\DhruvPong\obj\Debug\DhruvPong.pdb
