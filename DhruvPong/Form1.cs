@@ -23,24 +23,31 @@ namespace DhruvPong
         PaddleClass paddle2;
         BallClass ball;
         Graphics gfx;
+        Bitmap bitmap;
         int player1score = 0;
         int player2score = 0;
         public Form1()
         {
             InitializeComponent();
 
-            gfx = this.CreateGraphics();
-
+            
 
         }
 
-        
+
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            ball = new BallClass(100, 100, 100, 100, 20, 20, Color.FromArgb(255, 1,1,1));
-            paddle = new PaddleClass(0, 150, 40, 280, Color.FromArgb(255, 2, 2, 2));
-            paddle2 = new PaddleClass(1336, 150, 40, 280, Color.FromArgb(255, 2, 2, 2));
+            bitmap = new Bitmap(ClientSize.Width, ClientSize.Height);
+            gfx = Graphics.FromImage(bitmap);
+            //gfx = this.CreateGraphics();
+
+            //Color color = Color.FromArgb(255, 3, 3, 3);
+            Color color = Color.FromArgb(255, 30, 30, 30); 
+
+            ball = new BallClass(100, 100, 100, 100, 20, 20, color);
+            paddle = new PaddleClass(0, 150, 40, 280, color);
+            paddle2 = new PaddleClass(1336, 150, 40, 280, color);
 
         }
 
@@ -63,7 +70,7 @@ namespace DhruvPong
             {
                 paddle2.moveDown();
             }
-            else if(e.KeyCode == Keys.Space)
+            else if (e.KeyCode == Keys.Space)
             {
                 ball.offscreen = false;
             }
@@ -88,12 +95,14 @@ namespace DhruvPong
             ball.Draw(gfx);
 
 
-            if(ball.offscreen)
+            if ((ball.x <= 0) || (ball.x >= ClientSize.Width))
             {
-                if(ball.x <= 0)
+                if (ball.x <= 0)
                 {
 
                     
+                    player1score++;
+
                 }
                 else
                 {
@@ -110,7 +119,7 @@ namespace DhruvPong
             ball.IntersectsPaddle(paddle2, false);
 
 
-
+            pictureBox1.Image = bitmap;
         }
 
     }
