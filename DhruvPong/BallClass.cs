@@ -59,7 +59,7 @@ namespace DhruvPong
                 speedY = Math.Abs(speedY);
             }
 
-            if (y + 100 >= ClientHeight) //Bottom 
+            if (y + height >= ClientHeight) //Bottom 
             {
                 speedY = -Math.Abs(speedY);
             }
