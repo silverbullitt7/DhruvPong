@@ -92,12 +92,12 @@ namespace DhruvPong
             {
                 if(ball.x <= 0)
                 {
-                    player1score++;
+
                     
                 }
                 else
                 {
-                    player2score++;
+
                 }
                 ball.Reset(ClientSize.Width, ClientSize.Height);
             }
