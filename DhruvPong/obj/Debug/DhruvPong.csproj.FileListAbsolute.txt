@@ -33,3 +33,12 @@ C:\Users\GMRInstructor\Documents\GitHub\DhruvPong\DhruvPong\obj\Debug\DhruvPong.
 C:\Users\GMRInstructor\Documents\GitHub\DhruvPong\DhruvPong\obj\Debug\DhruvPong.csproj.GenerateResource.Cache
 C:\Users\GMRInstructor\Documents\GitHub\DhruvPong\DhruvPong\obj\Debug\DhruvPong.exe
 C:\Users\GMRInstructor\Documents\GitHub\DhruvPong\DhruvPong\obj\Debug\DhruvPong.pdb
+C:\Users\GMRInstructor\Documents\Visual Studio 2015\Projects\DhruvPong\DhruvPong\bin\Debug\DhruvPong.exe.config
+C:\Users\GMRInstructor\Documents\Visual Studio 2015\Projects\DhruvPong\DhruvPong\obj\Debug\DhruvPong.exe
+C:\Users\GMRInstructor\Documents\Visual Studio 2015\Projects\DhruvPong\DhruvPong\obj\Debug\DhruvPong.pdb
+C:\Users\GMRInstructor\Documents\Visual Studio 2015\Projects\DhruvPong\DhruvPong\bin\Debug\DhruvPong.exe
+C:\Users\GMRInstructor\Documents\Visual Studio 2015\Projects\DhruvPong\DhruvPong\bin\Debug\DhruvPong.pdb
+C:\Users\GMRInstructor\Documents\Visual Studio 2015\Projects\DhruvPong\DhruvPong\obj\Debug\DhruvPong.csprojResolveAssemblyReference.cache
+C:\Users\GMRInstructor\Documents\Visual Studio 2015\Projects\DhruvPong\DhruvPong\obj\Debug\DhruvPong.Form1.resources
+C:\Users\GMRInstructor\Documents\Visual Studio 2015\Projects\DhruvPong\DhruvPong\obj\Debug\DhruvPong.Properties.Resources.resources
+C:\Users\GMRInstructor\Documents\Visual Studio 2015\Projects\DhruvPong\DhruvPong\obj\Debug\DhruvPong.csproj.GenerateResource.Cache

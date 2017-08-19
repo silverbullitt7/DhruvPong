@@ -40,14 +40,13 @@ namespace DhruvPong
         {
             bitmap = new Bitmap(ClientSize.Width, ClientSize.Height);
             gfx = Graphics.FromImage(bitmap);
-            //gfx = this.CreateGraphics();
 
-           //Color color = Color.FromArgb(255, 1, 1, 1);
-           Color color = Color.FromArgb(255, 30, 30, 30); 
+           Color color = Color.FromArgb(255, 3, 3, 3);
+          // Color color = Color.FromArgb(255, 30, 30, 30); 
 
             ball = new BallClass(100, 100, 100, 100, 10, 10, color);
             paddle = new PaddleClass(0, 150, 40, 180, color);
-            paddle2 = new PaddleClass(1336, 150, 40, 180, color);
+            paddle2 = new PaddleClass(1340, 150,39, 180, color);
 
         }
 
@@ -116,13 +115,11 @@ namespace DhruvPong
                 ball.Move(ClientSize.Width, ClientSize.Height);
             }
 
-           
 
-
-            if (player1score > 6)
-            {
-                MessageBox.Show("Player 1 Won!");
-                Close();
+           if (player1score > 6)
+           {
+               MessageBox.Show("Player 1 Won!");
+               Close();
             }
             else if (player2score > 6)
             {
@@ -136,6 +133,7 @@ namespace DhruvPong
 
 
             pictureBox1.Image = bitmap;
+            
         }
 
     }
